@@ -1,9 +1,12 @@
 ## :open_book: FIES
 
 Meu foco nesse projeto é entender as mudanças que ocorreram dentro do programa governamental, utilizando os dados públicos de 2019, 2020 e 2021. Com base nisso segui o processo padrão de ETL.
-**Extração:** Se tratava de arquivos CSV com disponibilização pública.
-**Transformação:** Utilizei primeiramente o Python para mesclar todos os arquivos CSV em um só, para faciliar a análise.
-**Carregamento:** Criação de visualizações pelo PowerBI.
+
+-**Extração:** Se tratava de arquivos CSV com disponibilização pública.
+
+-**Transformação:** Utilizei primeiramente o Python para mesclar todos os arquivos CSV em um só, para faciliar a análise.
+
+-**Carregamento:** Criação de visualizações pelo PowerBI.
 
 ### Ferrramentas
 
