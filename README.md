@@ -61,13 +61,18 @@ Após isso iniciei com algumas analises, começando pela evolução na procura p
 ## Informações Obtidas pela Análise
 
 Conforme informações obtidas pelos dados, notamos uma queda nas inscrições o no número de vagas disponibilizadas pelas universidades, isso tudo ocorreu devido a alterações feitas pelo MEC no programa, diminuindo vagas e aumentando a dificuldade de novos entrantes.
+
 Encontramos alguns padrões, como por exemplo dentro do curso de medicina, que se encontra entre um dos cursos mais procurados, isso o tornando o curso com maior dificuldade de novos entrantes, visto que possui uma média de 500 inscritos por vaga.
 
 ## Referências
 
-Dados Analisados
+**Dados Analisados**
+
 [MEC](https://dadosabertos.mec.gov.br/)
-Alterações no FIES
+
+**Alterações no FIES**
+
 [Agencia Brasil](https://agenciabrasil.ebc.com.br/educacao/noticia/2019-12/mec-oficializa-mudancas-no-fies-e-no-p-fies?utm_source=chatgpt.com)
+
 [G1](https://g1.globo.com/educacao/noticia/2019/12/27/mec-muda-regras-para-o-fies-e-p-fies-e-reduz-numero-de-vagas-a-partir-de-2021.ghtml?utm_source=chatgpt.com)
 
