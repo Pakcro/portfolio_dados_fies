@@ -1,7 +1,9 @@
 ## :open_book: FIES
 
-Meu foco nesse projeto é entender as mudanças que ocorreram dentro do programa governamental, utilizando os dados públicos de 2019, 2020 e 2021. Com base nisso, decidi seguir o processo padrão de ETL.
-Os dados foram extraídos do site do MEC, podendo ser acessados pelo link [https://dadosabertos.mec.gov.br/](https://dadosabertos.mec.gov.br/)
+Meu foco nesse projeto é entender as mudanças que ocorreram dentro do programa governamental, utilizando os dados públicos de 2019, 2020 e 2021. Com base nisso, decidi por iniciar o processo extraindo os dados, realizando a limpeza e manutenção necessaria nas informações, e então realizar a análise dos dados.
+
+Não querendo me prender apenas nos dados disponíveis no MEC, fui atrás de informações relevantes que possam explicar as alterações no números conforme o andamento dos anos. Deixarei o link de minhas pesquisas no final do projeto.
+
 
 **Extração:** Se tratava de arquivos CSV com disponibilização pública.
 
@@ -14,6 +16,8 @@ Os dados foram extraídos do site do MEC, podendo ser acessados pelo link [https
 -**Python**
 
 -**Pandas**
+
+-*Pandas_Profiling
 
 -**Matplotlib**
 
@@ -36,19 +40,34 @@ Os dados foram extraídos do site do MEC, podendo ser acessados pelo link [https
 -**Data Storytelling**
 
 # Etapas
-
-Aqui seguiremos o processo etapa a etapa, para entendermos como chegamos no resultado.
-
 ## Extração
 
 Arquivos retirados do site do MEC, onde possuiam arquivos de 2019 a 2021, existem 2 tipos de planilha, uma contendo os dados dos inscritos e outra com as informações das vagas disponibilizadas pelas instituições públicas.
 
-Cada ano possui 2 semestres, os arquivos dos inscritos eram separados da mesma maneira, resultando no total de 6 planilhas mais 3 planilhas de vagas.
+Cada ano possui 2 semestres, os dois arquivossão organizados da mesma maneira, resultando no total de 12 planilhas.
 
-## Transformação
+## Transformação / Limpeza
 
 Por se tratar de diversas planilhas contendo as mesmas colunas, decidi por mesclar em um unico arquivo, facilitando na hora de realizar as análises futuras. Para isso utilizei Pandas e OS, bibliotecas do Python que facilitam essa operação. 
 
 Os arquivos estavam corretamente classificados, tendo que fazer pequenas correções para facilitar a análise.
 
+## Análise
+
+Iniciei com o processo de Análise Exploratoria, indo atrás da visão geral dos dados, verificando dados faltantes ou duplicados, distribuição e tipos.
+
+Após isso iniciei com algumas analises, começando pela evolução na procura por cada curso em cada ano, a quantidade de inscritos por cada estado, estados que ofertam mais vagas e outras analises listadas no código.
+
+## Informações Obtidas pela Análise
+
+Conforme informações obtidas pelos dados, notamos uma queda nas inscrições o no número de vagas disponibilizadas pelas universidades, isso tudo ocorreu devido a alterações feitas pelo MEC no programa, diminuindo vagas e aumentando a dificuldade de novos entrantes.
+Encontramos alguns padrões, como por exemplo dentro do curso de medicina, que se encontra entre um dos cursos mais procurados, isso o tornando o curso com maior dificuldade de novos entrantes, visto que possui uma média de 500 inscritos por vaga.
+
+## Referências
+
+Dados Analisados
+[MEC](https://dadosabertos.mec.gov.br/)
+Alterações no FIES
+[Agencia Brasil](https://agenciabrasil.ebc.com.br/educacao/noticia/2019-12/mec-oficializa-mudancas-no-fies-e-no-p-fies?utm_source=chatgpt.com)
+[G1](https://g1.globo.com/educacao/noticia/2019/12/27/mec-muda-regras-para-o-fies-e-p-fies-e-reduz-numero-de-vagas-a-partir-de-2021.ghtml?utm_source=chatgpt.com)
 
