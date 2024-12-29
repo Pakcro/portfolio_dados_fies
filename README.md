@@ -64,6 +64,10 @@ Conforme informações obtidas pelos dados, notamos uma queda nas inscrições o
 
 Encontramos alguns padrões, como por exemplo dentro do curso de medicina, que se encontra entre um dos cursos mais procurados, isso o tornando o curso com maior dificuldade de novos entrantes, visto que possui uma média de 500 inscritos por vaga.
 
+Já na questão racial, dentre os 3 anos, tivemos quase 50% de pardos e apenas 12% de negros.
+
+Entre a questão de sexo, as mulheres se destacam nas inscritas, ultrapassando a marca de 60% nas inscrições.
+
 ## Referências
 
 **Dados Analisados**
@@ -75,4 +79,12 @@ Encontramos alguns padrões, como por exemplo dentro do curso de medicina, que s
 [Agencia Brasil](https://agenciabrasil.ebc.com.br/educacao/noticia/2019-12/mec-oficializa-mudancas-no-fies-e-no-p-fies?utm_source=chatgpt.com)
 
 [G1](https://g1.globo.com/educacao/noticia/2019/12/27/mec-muda-regras-para-o-fies-e-p-fies-e-reduz-numero-de-vagas-a-partir-de-2021.ghtml?utm_source=chatgpt.com)
+
+# Como abrir o projeto
+
+Será necessário o download dos dados em CSV, então a utilização do software *Anacondas*, utilizando o *JupiterLab 4.2.5*.
+
+Realize o clone desse repositorio para o seu GitHub, então salve em seu computador.
+
+Após isso rode o projeto dentro do *JupyterLab*
 
