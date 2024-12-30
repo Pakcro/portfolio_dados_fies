@@ -2,12 +2,12 @@
 
 Meu foco nesse projeto é entender as mudanças que ocorreram dentro do programa governamental, utilizando os dados públicos de 2019, 2020 e 2021. Com base nisso, decidi por iniciar o processo extraindo os dados, realizando a limpeza e manutenção necessaria nas informações, e então realizar a análise dos dados.
 
-Não querendo me prender apenas nos dados disponíveis no MEC, fui atrás de informações relevantes que possam explicar as alterações no números conforme o andamento dos anos. Deixarei o link de minhas pesquisas no final do projeto.
+Não querendo me prender apenas nos dados disponíveis no MEC, fui atrás de informações relevantes que possam explicar as alterações nos números conforme o andamento dos anos. Deixarei o link de minhas pesquisas no final do projeto.
 
 
 **Extração:** Se tratava de arquivos CSV com disponibilização pública.
 
-**Transformação:** Utilizei primeiramente o Python para mesclar todos os arquivos CSV em um só, para faciliar a análise.
+**Transformação:** Utilizei primeiramente o Python para mesclar todos os arquivos CSV em um só, para facilitar a análise.
 
 **Carregamento:** Visualização dos dados em Python, com relatório descritivo das operações realizadas.
 
@@ -44,7 +44,7 @@ Não querendo me prender apenas nos dados disponíveis no MEC, fui atrás de inf
 
 Arquivos retirados do site do MEC, onde possuiam arquivos de 2019 a 2021, existem 2 tipos de planilha, uma contendo os dados dos inscritos e outra com as informações das vagas disponibilizadas pelas instituições públicas.
 
-Cada ano possui 2 semestres, os dois arquivossão organizados da mesma maneira, resultando no total de 12 planilhas.
+Cada ano possui 2 semestres, os dois arquivos são organizados da mesma maneira, resultando no total de 12 planilhas.
 
 ## Transformação / Limpeza
 
@@ -54,19 +54,19 @@ Os arquivos estavam corretamente classificados, tendo que fazer pequenas correç
 
 ## Análise
 
-Iniciei com o processo de Análise Exploratoria, indo atrás da visão geral dos dados, verificando dados faltantes ou duplicados, distribuição e tipos.
+Iniciei com o processo de Análise Exploratória, indo atrás da visão geral dos dados, verificando dados faltantes ou duplicados, distribuição e tipos.
 
-Após isso iniciei com algumas analises, começando pela evolução na procura por cada curso em cada ano, a quantidade de inscritos por cada estado, estados que ofertam mais vagas e outras analises listadas no código.
+Após isso iniciei com algumas análises, começando pela evolução na procura por cada curso em cada ano, a quantidade de inscritos por cada estado, estados que ofertam mais vagas e outras análises listadas no código.
 
 ## Informações Obtidas pela Análise
 
-Conforme informações obtidas pelos dados, notamos uma queda nas inscrições o no número de vagas disponibilizadas pelas universidades, isso tudo ocorreu devido a alterações feitas pelo MEC no programa, diminuindo vagas e aumentando a dificuldade de novos entrantes.
+Conforme informações obtidas pelos dados, notamos uma queda nas inscrições e no número de vagas disponibilizadas pelas universidades, isso tudo ocorreu devido a alterações feitas pelo MEC no programa, diminuindo vagas e aumentando a dificuldade de novos entrantes.
 
-Encontramos alguns padrões, como por exemplo dentro do curso de medicina, que se encontra entre um dos cursos mais procurados, isso o tornando o curso com maior dificuldade de novos entrantes, visto que possui uma média de 500 inscritos por vaga.
+Encontramos alguns padrões, como por exemplo, dentro do curso de medicina, que se encontra entre um dos cursos mais procurados, tornando o curso com maior dificuldade de novos entrantes, visto que possui uma média de 500 inscritos por vaga.
 
 Já na questão racial, dentre os 3 anos, tivemos quase 50% de pardos e apenas 12% de negros.
 
-Entre a questão de sexo, as mulheres se destacam nas inscritas, ultrapassando a marca de 60% nas inscrições.
+Entre a questão de sexo, as mulheres se destacam nas inscritas, ultrapassando a marca de 65% nas inscrições.
 
 ## Referências
 
@@ -84,7 +84,7 @@ Entre a questão de sexo, as mulheres se destacam nas inscritas, ultrapassando a
 
 Será necessário o download dos dados em CSV, então a utilização do software *Anacondas*, utilizando o *JupiterLab 4.2.5*.
 
-Realize o clone desse repositorio para o seu GitHub, então salve em seu computador.
+Realize o clone desse repositório para o seu GitHub, então salve em seu computador.
 
 Após isso rode o projeto dentro do *JupyterLab*
 
